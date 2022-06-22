@@ -12,6 +12,7 @@ module.exports = {
         assetModuleFilename: "assets/images/[hash][ext][query]",
     },
     mode: "development", // for development purposes. The JSON was modified as well
+    watch: true,
     resolve: {
         extensions: [".js"],
         alias: {
